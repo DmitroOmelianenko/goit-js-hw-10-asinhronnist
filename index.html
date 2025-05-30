@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання з setInterval</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #box {
+            width: 50px;
+            height: 50px;
+            background: red;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            transition: 0.5s;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Таймер інтервалу</h2>
+
+    <h2>Анімація елементів</h2>
+    <div id="box"></div>
+
+    <h2>Інтерактивна гра</h2>
+    <button id="gameButton">Натисни мене!</button>
+    <p>Очки: <span id="score">0</span></p>
+
+    <h2>Контроль часу</h2>
+    <input type="number" id="timeInput" placeholder="Введіть секунди">
+    <button class="time_button">Почати</button>
+
+<script src="./main.js"></script>
+</body>
+</html>
